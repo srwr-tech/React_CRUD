@@ -1,0 +1,185 @@
+.card-title {
+	text-align: left;
+	font-size: 16px;
+	color: #2e8cff;
+	text-decoration: none;
+	overflow: hidden;
+	display: -webkit-box;
+	line-height: 16px; /* fallback */
+	max-height: 32px; /* fallback */
+	-webkit-line-clamp: 1; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
+.card-subtitle {
+	text-align: left;
+	font-size: 14px;
+	color: #0aa33d;
+	text-decoration: none;
+	overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
+
+.link-line {
+	text-decoration: none;
+}
+.limit-char {
+	color: black;
+	text-align: justify;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 3; /* number of lines to show */
+	-webkit-box-orient: vertical;
+	
+}
+
+.one-liner {
+	text-align: justify;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1; /* number of lines to show */
+	-webkit-box-orient: vertical;
+}
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+/* ======= Navbar Toggler ====== */
+
+/* Remove border from toggler */
+.navbar-toggler {
+	border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none !important;
+	box-shadow: none !important;
+	border: 0 !important;
+}
+
+/* Lines of the Toggler */
+.toggler-icon {
+	width: 30px;
+	height: 3px;
+	background-color: #e74c3c;
+	display: block;
+	transition: all 0.2s;
+}
+
+/* Adds Space between the lines */
+.middle-bar {
+	margin: 5px auto;
+}
+
+/* State when navbar is opened (START) */
+.navbar-toggler .top-bar {
+	transform: rotate(45deg);
+	transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+	transform: rotate(-45deg);
+	transform-origin: 10% 90%;
+}
+/* State when navbar is opened (END) */
+
+/* State when navbar is collapsed (START) */
+.navbar-toggler.collapsed .top-bar {
+	transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+	transform: rotate(0);
+}
+/* State when navbar is collapsed (END) */
+
+/* Color of Toggler when collapsed */
+.navbar-toggler.collapsed .toggler-icon {
+	background-color: #d2e82d;
+}
+/* ======= Navbar Toggler ====== */
+
+
+/* Import this CSS into your component's CSS file or use a global stylesheet */
+
+/* Style for the navbar */
+.navbar {
+  background-color: red; /* Change to your desired background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 70px; /* Adjust the height as needed */
+}
+
+/* Styling for the toggler icon */
+.toggler-icon {
+  background-color: #fff; /* Change to your desired color */
+}
+
+/* Styling for the collapsed toggler icon */
+.toggler-icon.collapsed {
+  background-color: #aaa; /* Change to your desired color */
+}
+
+/* Import this CSS into your component's CSS file or use a global stylesheet */
+
+/* Font style for the navbar */
+.navbar-brand,
+.nav-link {
+  font-family: "Arial", sans-serif; /* Change to your desired font */
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #fff; /* Change to your desired font color */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Increase font size for the brand */
+.navbar-brand {
+  font-size: 24px;
+}
+
+/* Import this CSS into your component's CSS file or use a global stylesheet */
+
+/* Styling for the round navbar */
+.navbar {
+	background-color: #7c1818; /* Change to your desired background color */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	height: 70px; /* Adjust the height as needed */
+	border-radius: 50px; /* Use half of the height for a round shape */
+	overflow: hidden; /* Ensure content stays within the rounded border */
+  }
+  
+  /* Styling for the toggler icon */
+  .toggler-icon {
+	background-color: #fff; /* Change to your desired color */
+  }
+  
+  /* Styling for the collapsed toggler icon */
+  .toggler-icon.collapsed {
+	background-color: #aaa; /* Change to your desired color */
+  }
+/* Add this CSS to the same file as the previous styles */
+
+.navbar {
+	/* ... (other styles) */
+	padding: 0 15px; /* Adjust the padding as needed */
+  }
+	
+  
